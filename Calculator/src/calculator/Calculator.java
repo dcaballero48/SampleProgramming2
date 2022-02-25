@@ -26,6 +26,8 @@ public class Calculator {
         System.out.println("How many times do you wish to practice?");
         Scanner keyboard= new Scanner(System.in);
         
+        System.out.println("Hello World !!!!");
+        
         repeat = keyboard.nextInt();
         int ranNum1, ranNum2, ranOp;
         Random myRan = new Random();
